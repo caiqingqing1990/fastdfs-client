@@ -32,4 +32,5 @@ public interface Consts {
 
 	String FDFS_RECORD_SEPERATOR = "\u0001";
 	String FDFS_FIELD_SEPERATOR = "\u0002";
+	byte ERRNO_OK = 0;
 }
