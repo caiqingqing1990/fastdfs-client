@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package cn.strong.fastdfs.exception;
+
+/**
+ * Fastdfs 连接异常
+ * 
+ * @author liulongbiao
+ *
+ */
+public class FastdfsConnectionException extends FastdfsException {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6957383397699283454L;
+
+	public FastdfsConnectionException() {
+		super();
+	}
+
+	public FastdfsConnectionException(String message, Throwable cause) {
+		super(message, cause);
+	}
+
+	public FastdfsConnectionException(String message) {
+		super(message);
+	}
+
+	public FastdfsConnectionException(Throwable cause) {
+		super(cause);
+	}
+
+}
