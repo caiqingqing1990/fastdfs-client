@@ -1,6 +1,6 @@
 # fastdfs-client
 
-fastdfs-client is [fastdfs](https://github.com/happyfish100/fastdfs) java client 
+fastdfs-client is a [fastdfs](https://github.com/happyfish100/fastdfs) java client 
 based on [Netty](http://netty.io) and commons-pool2.
 
 ## 前置条件
