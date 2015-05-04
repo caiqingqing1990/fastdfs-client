@@ -20,7 +20,7 @@ import cn.strong.fastdfs.model.StoragePath;
  */
 public abstract class AbstractStoragePathRequest implements Request {
 
-	private final StoragePath spath;
+	public final StoragePath spath;
 
 	public AbstractStoragePathRequest(StoragePath spath) {
 		this.spath = requireNonNull(spath);
